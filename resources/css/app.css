@@ -1,0 +1,324 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 425px) { 
+    .ajuste-texto-ingco{
+        display: none;
+    }
+}
+.ocultar {
+    display: none;
+}
+path{
+    /* color: #ff9900; */
+}
+.activite-label::after {
+    content: "";
+    color: red;
+    border-radius: 2rem;
+    width: 1rem;
+    display: block;
+    position: relative;
+    left: 13px;
+    top: 7px;
+    height: 0.7rem;
+    background-color: red;
+}
+.ajuste-notificacion {
+    margin-bottom: -1px;   
+}
+.bg-ingco-color {
+    background-color: #ff9900;
+}
+.ingco-color {
+    color: #ff9900;
+}
+.path {
+    color: #5d5d65;
+}
+@media (max-width: 425px) { 
+    .py-2.px-8.text-gray-600.hover\:ingco-color.hover\:bg-ingco-color.rounded-full {
+        padding: 0.5rem 0.5rem;
+    }
+}
+.ajuste-orden-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width: 1800px) { 
+    .ajuste-grafica {
+        width:40rem;
+    }
+
+}
+@media (max-width: 1300px) { 
+    .ajuste-grafica {
+        width:30rem;
+    }
+
+}
+
+@media (max-width: 1024px) { 
+    .ajuste-grafica {
+        width:54rem;
+    }
+
+}
+@media (max-width: 768px) { 
+    .ajuste-grafica {
+        width: 40rem;
+    }
+
+}
+
+@media (max-width: 425px) { 
+    .ajuste-grafica {
+        width: 18rem;
+    }
+
+}
+
+.fondo-ingco {
+    background-color: hsla(210,0%,23%,1);
+    background-image: radial-gradient(at 24% 94%, hsla(241,0%,33%,1) 0px, transparent 50%), radial-gradient(at 51% 1%, hsla(343,0%,33%,1) 0px, transparent 50%);
+}
+.ajuste-navegacion {
+    margin-top: -2rem;
+}
+.fix-nav-aside-main {
+    display: none;
+}
+
+@media (min-width: 1024px) { 
+    .fix-nav-elements{
+        display: block;
+    }
+
+}
+.txt-clamp {
+    font-size: clamp(.5rem, -0.8rem + 12vw ,1.3rem);
+}
+.min-h-screen.flex.flex-col.sm\:justify-center.items-center.pt-6.sm\:pt-0.bg-gray-100.dark\:bg-gray-900 {
+    background: #f9fafb;
+}
+
+.w-full.sm\:max-w-md.mt-6.px-6.py-4.bg-white.dark\:bg-gray-800.shadow-md.overflow-hidden.sm\:rounded-lg {
+    background-color: hsla(210,0%,23%,1);
+    background-image: radial-gradient(at 24% 94%, hsla(241,0%,33%,1) 0px, transparent 50%), radial-gradient(at 51% 1%, hsla(343,0%,33%,1) 0px, transparent 50%);}
+label.block.font-medium.text-sm.text-gray-700.dark\:text-gray-300 {
+    color: white;
+}
+label.block.font-medium.text-sm.text-gray-700.dark\:text-gray-300 > input {
+    background-color: white;
+}
+svg.w-20.h-20.fill-current.text-gray-500 {
+    display: none;
+}
+
+.min-h-screen.flex.flex-col.sm\:justify-center.items-center.pt-6.sm\:pt-0.bg-gray-100.dark\:bg-gray-900 {
+    min-height: 50vh;
+}
+
+
+.maxima-altura-arregrlo {
+    max-height: 50vh;
+    height:50vh ;
+}
+
+.maxima-altura-arregrlo-track {
+    max-height: 70vh;
+    height:70vh ;
+}
+
+
+@media (max-width: 768px) { 
+    .ajuste-tracking{
+        padding-bottom: 0rem;
+        margin-left: -1rem;
+    }
+}
+@media (max-width: 425px) { 
+    .ajuste-tracking{
+        flex-direction: column;
+        padding-bottom: 12rem;
+    }
+    .ajuste-tracking > div{
+        width: 100%;
+    }
+
+}
+
+.ajuste-tracking{
+    margin-left: 0;
+}
+
+@media (max-width: 1300px) { 
+    .fix_registrarTracking {
+
+    }
+}
+@media (max-width: 1024px) { 
+    .fix_registrarTracking {
+
+    }
+
+}
+@media (max-width: 768px) { 
+    .fix_registrarTracking {
+
+    }
+
+}
+
+@media (max-width: 425px) { 
+    .fix_registrarTracking {
+        height: 16rem;
+    }
+    /* .fix_registrarTracking_btn {
+        display: flex;
+        justify-content: end;
+    } */
+}
+
+.ajusteTxt {
+    font-size: clamp(.8rem, 2.5vw, 1rem);
+}
+@media (max-width: 1024px) { 
+    .ajusteMenu {
+        overflow: scroll;
+    }
+
+}
+.colores-tabla>tr:nth-child(odd)>td, 
+.colores-tabla>tr:nth-child(odd)>th {
+ background-color: #f3f4f6;
+}
+.colores-tabla>tr:nth-child(even)>td, 
+.colores-tabla>tr:nth-child(even)>th {
+ background-color: white;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
