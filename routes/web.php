@@ -28,15 +28,15 @@ Roles
 
 /* Cliente */
 Route::get('/', function () {
-    return view('main.index');
+    return view('Main.index');
 })->name('inicio');
 
 Route::get('/sobre-nosotros', function () {
-    return view('main.sobre-nosotros');
+    return view('Main.sobre-nosotros');
 })->name('sobre-nosotros');
 
 Route::get('/garantia', function () {
-    return view('main.garantia');
+    return view('Main.garantia');
 })->name('garantia');
 
 Route::get('/garantias', function() {
